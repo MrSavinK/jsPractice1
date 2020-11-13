@@ -71,5 +71,9 @@ let appData = {
         appData.income.forEach(function (itemInMass,i) {
             console.log('Способы доп. заработка: ' + (i+1) + itemInMass);
         });
-    },
+    }
 };
+
+for (let key in appData) {
+    console.log(' Наша программа включает в себя данные: ' + key + '-' + appData[key] );
+}
